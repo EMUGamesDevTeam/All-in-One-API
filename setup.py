@@ -25,9 +25,9 @@ setup(name='titledb',
       [paste.app_factory]
       main = titledb:main
       [console_scripts]
-      initialize_titledb_db = titledb.initialize_db:main
-      update_titledb_db = titledb.update_db:main
-      titledb_cli = titledb.cli:main
+      initialize_titledb_db = titledb.titledb.initialize_db:main
+      update_titledb_db = titledb.titledb.update_db:main
+      titledb_cli = titledb.titledb.cli:main
       emugames = extras.eg_cmd:main
       """,
 )
